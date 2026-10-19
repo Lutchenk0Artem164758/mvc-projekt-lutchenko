@@ -25,7 +25,7 @@ cd czesc1-servlet-jsp
 mvn clean package
 ```
 
-Plik `target/szczyt.war` należy skopiować do katalogu `[tomcat]/webapps`,
+Plik `target/szczyt.war` należy skopiować do katalogu `webapps` w folderze Tomcata,
 uruchomić Tomcat (`bin\startup.bat` lub `bin/startup.sh`) i otworzyć
 http://localhost:8080/szczyt/
 

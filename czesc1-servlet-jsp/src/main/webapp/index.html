@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Szczyt</title>
+</head>
+<body>
+<h1>Szczyt – dziennik wejść górskich (część I)</h1>
+
+<p><a href="start">Zobacz polecane szlaki (żądanie GET do /start)</a></p>
+
+<form action="start" method="post">
+    <p>
+        <label>Twoje imię: <input type="text" name="imie"></label>
+    </p>
+    <p>
+        Co lubisz najbardziej?<br>
+        <label><input type="radio" name="aktywnosc" value="turystyka" checked> turystyka górska</label>
+        <label><input type="radio" name="aktywnosc" value="wspinaczka"> wspinaczka</label>
+    </p>
+    <p>
+        <label>Twój wymarzony szczyt lub droga: <input type="text" name="cel"></label>
+    </p>
+    <button type="submit">Wyślij żądanie POST</button>
+</form>
+</body>
+</html>
